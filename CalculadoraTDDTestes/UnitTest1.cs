@@ -83,4 +83,39 @@ public class CalculadoraTests
         Assert.NotEmpty(lista);
         Assert.Equal(3, lista.Count);
     }
+
+    [Fact]
+    public void TestarHistorico_ComMenosDeTresEntradas()
+    {
+        // Arrange: Adiciona 2 operações
+        _calculadora.Somar(1, 2);
+        _calculadora.Subtrair(5, 1);
+
+        // Act: Pega o histórico
+        var lista = _calculadora.historico();
+
+        // Assert: Verifica que não foram removidos itens
+        Assert.NotEmpty(lista);
+        Assert.Equal(2, lista.Count);
+    }
+
+    [Fact]
+    public void TestarHistorico_ComMaisDeTresEntradas()
+    {
+        // Arrange: Adiciona 4 operações
+        _calculadora.Somar(1, 2);
+        _calculadora.Subtrair(5, 1);
+        _calculadora.Dividir(10, 2);
+        _calculadora.Multiplicar(3, 4);
+
+        // Act: Pega o histórico
+        var lista = _calculadora.historico();
+
+        // Assert: Verifica que o histórico contém apenas os 3 últimos itens
+        Assert.NotEmpty(lista);
+        Assert.Equal(3, lista.Count);
+        Assert.Contains("Res: 12", lista); // Multiplicação deve estar presente
+        Assert.Contains("Res: 5", lista);  // Divisão deve estar presente
+        Assert.Contains("Res: 4", lista);  // Subtração deve estar presente
+    }
 }
