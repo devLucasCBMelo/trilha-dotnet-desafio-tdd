@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/lucas/lucas.costa/DIO/xp_full_stack_developer/secao7_trabalhando_com_desenvolvimento_orientado_a_testes/aula4_desafio_projeto_blindando_seu_codigo_com_TDD_e_testes_unitarios_usando_net_core/CalculadoraTDD/CalculadoraTDD.csproj": {}
+  },
+  "projects": {
+    "/home/lucas/lucas.costa/DIO/xp_full_stack_developer/secao7_trabalhando_com_desenvolvimento_orientado_a_testes/aula4_desafio_projeto_blindando_seu_codigo_com_TDD_e_testes_unitarios_usando_net_core/CalculadoraTDD/CalculadoraTDD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lucas/lucas.costa/DIO/xp_full_stack_developer/secao7_trabalhando_com_desenvolvimento_orientado_a_testes/aula4_desafio_projeto_blindando_seu_codigo_com_TDD_e_testes_unitarios_usando_net_core/CalculadoraTDD/CalculadoraTDD.csproj",
+        "projectName": "CalculadoraTDD",
+        "projectPath": "/home/lucas/lucas.costa/DIO/xp_full_stack_developer/secao7_trabalhando_com_desenvolvimento_orientado_a_testes/aula4_desafio_projeto_blindando_seu_codigo_com_TDD_e_testes_unitarios_usando_net_core/CalculadoraTDD/CalculadoraTDD.csproj",
+        "packagesPath": "/home/lucas/.nuget/packages/",
+        "outputPath": "/home/lucas/lucas.costa/DIO/xp_full_stack_developer/secao7_trabalhando_com_desenvolvimento_orientado_a_testes/aula4_desafio_projeto_blindando_seu_codigo_com_TDD_e_testes_unitarios_usando_net_core/CalculadoraTDD/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lucas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

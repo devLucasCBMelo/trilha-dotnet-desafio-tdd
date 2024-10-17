@@ -1,0 +1,13 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CalculadoraTDDTestes
+build_property.ProjectDir = /home/lucas/lucas.costa/DIO/xp_full_stack_developer/secao7_trabalhando_com_desenvolvimento_orientado_a_testes/aula4_desafio_projeto_blindando_seu_codigo_com_TDD_e_testes_unitarios_usando_net_core/CalculadoraTDDTestes/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

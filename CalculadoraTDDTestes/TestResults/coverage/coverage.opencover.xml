@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="32" visitedSequencePoints="28" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="87.5" branchCoverage="50" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="1" numClasses="2" visitedMethods="6" numMethods="7" />
+  <Modules>
+    <Module hash="7E45D873-88A3-4263-B00C-F5F212F05DF2">
+      <ModulePath>CalculadoraTDD.dll</ModulePath>
+      <ModuleTime>2024-10-17T10:07:34</ModuleTime>
+      <ModuleName>CalculadoraTDD</ModuleName>
+      <Files>
+        <File uid="1" fullPath="/home/lucas/lucas.costa/DIO/xp_full_stack_developer/secao7_trabalhando_com_desenvolvimento_orientado_a_testes/aula4_desafio_projeto_blindando_seu_codigo_com_TDD_e_testes_unitarios_usando_net_core/CalculadoraTDD/Program.cs" />
+        <File uid="2" fullPath="/home/lucas/lucas.costa/DIO/xp_full_stack_developer/secao7_trabalhando_com_desenvolvimento_orientado_a_testes/aula4_desafio_projeto_blindando_seu_codigo_com_TDD_e_testes_unitarios_usando_net_core/CalculadoraTDD/Services/CalculadoraTDDImp.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Program</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Program::&lt;Main&gt;$(System.String[])</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="3" ordinal="0" sl="3" sc="1" el="3" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="3" ec="1" el="3" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="31" visitedSequencePoints="28" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="90.32" branchCoverage="50" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>CalculadoraTDD.Services.CalculadoraImp</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 CalculadoraTDD.Services.CalculadoraImp::Somar(System.Int32,System.Int32)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="18" ordinal="0" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="19" ordinal="1" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="21" ordinal="2" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="23" ordinal="3" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="24" ordinal="4" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="18" ec="1" el="24" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 CalculadoraTDD.Services.CalculadoraImp::Subtrair(System.Int32,System.Int32)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="27" ordinal="0" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="28" ordinal="1" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="29" ordinal="2" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="30" ordinal="3" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="4" uspid="31" ordinal="4" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="27" ec="1" el="31" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 CalculadoraTDD.Services.CalculadoraImp::Multiplicar(System.Int32,System.Int32)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="34" ordinal="0" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="35" ordinal="1" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="36" ordinal="2" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="37" ordinal="3" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="38" ordinal="4" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="34" ec="1" el="38" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 CalculadoraTDD.Services.CalculadoraImp::Dividir(System.Int32,System.Int32)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="41" ordinal="0" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="42" ordinal="1" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="43" ordinal="2" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="44" ordinal="3" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="45" ordinal="4" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="41" ec="1" el="45" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="57.14" branchCoverage="50" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="4" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="57.14" branchCoverage="50" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.List`1&lt;System.String&gt; CalculadoraTDD.Services.CalculadoraImp::historico()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="48" ordinal="0" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="49" ordinal="1" sl="49" sc="1" el="49" ec="2" bec="2" bev="1" fileid="2" />
+                <SequencePoint vc="0" uspid="50" ordinal="2" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="51" ordinal="3" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="52" ordinal="4" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="53" ordinal="5" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="54" ordinal="6" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="49" ordinal="0" path="0" offset="17" offsetend="19" sl="49" fileid="2" />
+                <BranchPoint vc="1" uspid="49" ordinal="1" path="1" offset="17" offsetend="47" sl="49" fileid="2" />
+              </BranchPoints>
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="48" ec="1" el="54" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void CalculadoraTDD.Services.CalculadoraImp::.ctor()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="11" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="11" uspid="13" ordinal="1" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="11" uspid="14" ordinal="2" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="11" uspid="15" ordinal="3" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="12" ec="1" el="15" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
